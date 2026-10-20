@@ -28,70 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
+            btnRes = new Button();
+            txtVolume = new TextBox();
+            txtProcent = new TextBox();
+            txtQuantity = new TextBox();
+            txtVolumeDrink = new TextBox();
+            txtVolumeSpirt = new TextBox();
             SuspendLayout();
             // 
-            // button1
+            // btnRes
             // 
-            button1.Location = new Point(362, 249);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnRes.Location = new Point(351, 175);
+            btnRes.Name = "btnRes";
+            btnRes.Size = new Size(75, 23);
+            btnRes.TabIndex = 0;
+            btnRes.Text = "=";
+            btnRes.UseVisualStyleBackColor = true;
+            btnRes.Click += button1_Click;
             // 
-            // textBox1
+            // txtVolume
             // 
-            textBox1.Location = new Point(156, 112);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(123, 23);
-            textBox1.TabIndex = 1;
+            txtVolume.Location = new Point(156, 112);
+            txtVolume.Name = "txtVolume";
+            txtVolume.Size = new Size(123, 23);
+            txtVolume.TabIndex = 1;
             // 
-            // textBox2
+            // txtProcent
             // 
-            textBox2.Location = new Point(156, 175);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(123, 23);
-            textBox2.TabIndex = 2;
+            txtProcent.Location = new Point(156, 175);
+            txtProcent.Name = "txtProcent";
+            txtProcent.Size = new Size(123, 23);
+            txtProcent.TabIndex = 2;
             // 
-            // textBox3
+            // txtQuantity
             // 
-            textBox3.Location = new Point(156, 240);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(123, 23);
-            textBox3.TabIndex = 3;
+            txtQuantity.Location = new Point(156, 240);
+            txtQuantity.Name = "txtQuantity";
+            txtQuantity.Size = new Size(123, 23);
+            txtQuantity.TabIndex = 3;
             // 
-            // textBox4
+            // txtVolumeDrink
             // 
-            textBox4.Location = new Point(494, 146);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(108, 23);
-            textBox4.TabIndex = 4;
+            txtVolumeDrink.Location = new Point(494, 146);
+            txtVolumeDrink.Name = "txtVolumeDrink";
+            txtVolumeDrink.Size = new Size(108, 23);
+            txtVolumeDrink.TabIndex = 4;
             // 
-            // textBox5
+            // txtVolumeSpirt
             // 
-            textBox5.Location = new Point(494, 204);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(108, 23);
-            textBox5.TabIndex = 5;
+            txtVolumeSpirt.Location = new Point(494, 204);
+            txtVolumeSpirt.Name = "txtVolumeSpirt";
+            txtVolumeSpirt.Size = new Size(108, 23);
+            txtVolumeSpirt.TabIndex = 5;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
+            Controls.Add(txtVolumeSpirt);
+            Controls.Add(txtVolumeDrink);
+            Controls.Add(txtQuantity);
+            Controls.Add(txtProcent);
+            Controls.Add(txtVolume);
+            Controls.Add(btnRes);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -100,11 +100,11 @@
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
+        private Button btnRes;
+        private TextBox txtVolume;
+        private TextBox txtProcent;
+        private TextBox txtQuantity;
+        private TextBox txtVolumeDrink;
+        private TextBox txtVolumeSpirt;
     }
 }
