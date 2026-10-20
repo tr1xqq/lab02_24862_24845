@@ -6,5 +6,10 @@ namespace lab02_24862_24845
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
