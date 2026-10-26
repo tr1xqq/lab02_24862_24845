@@ -44,7 +44,7 @@
             btnRes.TabIndex = 0;
             btnRes.Text = "=";
             btnRes.UseVisualStyleBackColor = true;
-            btnRes.Click += button1_Click;
+            btnRes.Click += btnRes_Click;
             // 
             // txtVolume
             // 
