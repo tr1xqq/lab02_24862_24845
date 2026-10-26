@@ -50,5 +50,10 @@ namespace lab02_24862_24845
             txtVolumeDrink.Text = $"{totalVolume:F2} ml";
             txtVolumeSpirt.Text = $"{pureAlcohol:F2} ml";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
