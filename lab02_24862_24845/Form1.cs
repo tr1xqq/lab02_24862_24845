@@ -9,7 +9,7 @@ namespace lab02_24862_24845
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            String name = textBox1.Text;
         }
     }
 }
